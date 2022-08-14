@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include <math.h>
+#include <string.h>//libreria para string
+#include <math.h>//bibloteca para operaciones mate
 #include <ctype.h>
 //#include "exercises.h"
 
@@ -46,10 +46,7 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
     a[n-i-1] = aux;
 
     *suma = sumaN(a, m);
-    
   }
-  
-
 }
 
 /*
@@ -67,7 +64,10 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-   return NULL;
+  Persona * per = (Persona*)malloc(sizeof(Persona));
+  
+  
+  return NULL;
 }
 
 /*

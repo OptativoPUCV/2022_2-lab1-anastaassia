@@ -59,3 +59,9 @@ exercises.c:67:13: error: unused variable ‘per’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 55918da
+Sun 14 Aug 2022 07:41:17 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+a16fe58

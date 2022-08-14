@@ -64,10 +64,10 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-  Persona * per = (Persona*)malloc(sizeof(Persona));
+  Persona * per = (Persona* )malloc(sizeof(Persona));
   
   
-  return NULL;
+  return per;
 }
 
 /*

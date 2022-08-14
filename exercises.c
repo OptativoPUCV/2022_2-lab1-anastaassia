@@ -40,7 +40,7 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
   int i = 0;
   int aux;
   
-  for(i=0 < n/2; i++){
+  for(i=0; i < n/2; i++){
     aux = a[i];
     a[i] = a[n-i-1];
     a[n-i-1] = aux;

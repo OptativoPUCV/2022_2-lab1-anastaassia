@@ -132,3 +132,22 @@ exercises.c:95:1: error: control reaches end of non-void function [-Werror=retur
 cc1: all warnings being treated as errors
 Compilation failed
 a94370b
+Sun 14 Aug 2022 08:09:26 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:91:14: error: ‘datos’ undeclared (first use in this function)
+   91 |   v->datos = datos;
+      |              ^~~~~
+exercises.c:91:14: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:92:19: error: expected ‘;’ before ‘:’ token
+   92 |   v->capacidad = n:
+      |                   ^
+      |                   ;
+exercises.c:95:1: error: control reaches end of non-void function [-Werror=return-type]
+   95 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+1e36f34

@@ -212,3 +212,17 @@ exercises.c:71:18: error: control reaches end of non-void function [-Werror=retu
 cc1: all warnings being treated as errors
 Compilation failed
 a11a98f
+Sun 14 Aug 2022 08:16:51 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:92:15: error: ‘datos’ undeclared (first use in this function)
+   92 |   v->datos = (datos *)calloc(sizeof(datos));
+      |               ^~~~~
+exercises.c:92:15: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:92:22: error: expected expression before ‘)’ token
+   92 |   v->datos = (datos *)calloc(sizeof(datos));
+      |                      ^
+Compilation failed
+49ab842

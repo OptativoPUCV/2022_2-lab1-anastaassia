@@ -324,3 +324,21 @@ Sun 14 Aug 2022 09:21:57 PM UTC:
  tests:  6|2
 total_score: 50/70
 7e76dab
+Sun 14 Aug 2022 09:31:54 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:122:5: error: ‘i’ undeclared (first use in this function)
+  122 |   c[i]=a[i]+b[i]
+      |     ^
+exercises.c:122:5: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:122:17: error: expected ‘;’ before ‘}’ token
+  122 |   c[i]=a[i]+b[i]
+      |                 ^
+      |                 ;
+  123 | 
+  124 | }
+      | ~                
+Compilation failed
+97c65ab

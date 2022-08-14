@@ -89,7 +89,7 @@ Vector * crearVector(int n) {
   Vector * v =(Vector *)malloc(sizeof(Vector));//se crea el arreglo
   
   v->datos = (int *)calloc(n,sizeof(int));//se inicializa con solo 0
-  v->capacidad = n;
+  v->capacidad = n;//
   
   return v;
 }
@@ -133,6 +133,7 @@ Ejercicio 8.
 Use las operaciones implementadas de vectores para 
 sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
 */
+
 void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
   c->datos[0] = (a1+b1);
   c->datos[1] = (a2+b2);

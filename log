@@ -392,3 +392,20 @@ Sun 14 Aug 2022 09:43:35 PM UTC:
  tests:  7|1
 total_score: 60/70
 c43e63a
+Sun 14 Aug 2022 10:04:20 PM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV2’:
+exercises.c:137:12: error: expected expression before ‘]’ token
+  137 |   c->datos[]= (a1+a2)+(b1+b2)
+      |            ^
+exercises.c:137:30: error: expected ‘;’ before ‘}’ token
+  137 |   c->datos[]= (a1+a2)+(b1+b2)
+      |                              ^
+      |                              ;
+  138 | 
+  139 | }
+      | ~                             
+Compilation failed
+aab81b7

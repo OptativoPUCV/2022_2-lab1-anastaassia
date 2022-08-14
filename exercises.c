@@ -1,8 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>//libreria para string
+#include <stdio.h>//bibloteca para entrada y salida
+#include <stdlib.h>//bibloteca para el proceso 
+#include <string.h>//bibloteca para string
 #include <math.h>//bibloteca para operaciones mate
-#include <ctype.h>
+#include <ctype.h>//bibloteca para asignar caracteres
 //#include "exercises.h"
 
 /* 
@@ -37,14 +37,14 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-  int i = 0;
-  int aux;
-  for(i=0; i < n/2; i++){
+  int i = 0;//inicializa la funcion 
+  int aux;//se crea una copia 
+  for(i=0; i < n/2; i++){//ingresa parametros para dar vuelta el arreglo 
     aux = a[i];
     a[i] = a[n-i-1];
     a[n-i-1] = aux;
 
-    *suma = sumaN(a, m);
+    *suma = sumaN(a, m);//se llama a otra funcion
   }
 }
 
@@ -63,13 +63,13 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-  Persona * p = (Persona* )malloc(sizeof(Persona));
+  Persona * p = (Persona* )malloc(sizeof(Persona));//se crea una lista 
 
-  strcpy(p->nombre, nombre);
-  strcpy(p->rut, rut);
-  p->edad = edad;
+  strcpy(p->nombre, nombre);//se copia lo que hay en nombre 
+  strcpy(p->rut, rut);//se copia lo que hay en rut
+  p->edad = edad;//se accede a edad
 
-  return p;
+  return p;//retorna la lista 
 }
 
 /*
@@ -86,9 +86,9 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-  Vector * v =(Vector *)malloc(sizeof(Vector));
+  Vector * v =(Vector *)malloc(sizeof(Vector));//se crea el arreglo
   
-  v->datos = (int *)calloc(n,sizeof(int));
+  v->datos = (int *)calloc(n,sizeof(int));//se inicializa con solo 0
   v->capacidad = n;
   
   return v;
@@ -134,6 +134,6 @@ Use las operaciones implementadas de vectores para
 sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
 */
 void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
-  c->datos[]= (a1+a2)+(b1+b2)
-
+  c->datos[0]= (a1+a2);
+  c->datos[1]= (b1+b2);
 }

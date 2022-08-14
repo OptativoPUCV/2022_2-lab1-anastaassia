@@ -409,3 +409,9 @@ exercises.c:137:30: error: expected ‘;’ before ‘}’ token
       | ~                             
 Compilation failed
 aab81b7
+Sun 14 Aug 2022 11:26:01 PM UTC: 
+ exercises.c | 34 +++++++++++++++++-----------------
+ 1 file changed, 17 insertions(+), 17 deletions(-)
+ tests:  7|1
+total_score: 60/70
+abe0fef

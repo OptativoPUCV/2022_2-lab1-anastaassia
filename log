@@ -93,3 +93,14 @@ Sun 14 Aug 2022 07:58:38 PM UTC:
  tests:  2|5
 total_score: 20/70
 72cb245
+Sun 14 Aug 2022 08:02:09 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:71:4: error: statement with no effect [-Werror=unused-value]
+   71 |   p->edad;
+      |   ~^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+ff58c16

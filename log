@@ -359,3 +359,14 @@ exercises.c:123:19: error: expected ‘;’ before ‘}’ token
       |   ~                
 Compilation failed
 cc21ab5
+Sun 14 Aug 2022 09:37:09 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:122:7: error: ‘i’ undeclared (first use in this function)
+  122 |   for(i=0; i<3; i++){
+      |       ^
+exercises.c:122:7: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+04664ff

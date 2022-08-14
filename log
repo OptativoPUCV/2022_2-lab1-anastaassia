@@ -65,3 +65,14 @@ Sun 14 Aug 2022 07:41:17 PM UTC:
  tests:  2|5
 total_score: 20/70
 a16fe58
+Sun 14 Aug 2022 07:50:38 PM UTC: 
+ exercises.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:87:12: error: unused variable ‘v’ [-Werror=unused-variable]
+   87 |   Vector * v =(Vector *)malloc(sizeof(Vector));
+      |            ^
+cc1: all warnings being treated as errors
+Compilation failed
+1136381

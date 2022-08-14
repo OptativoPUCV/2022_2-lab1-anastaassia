@@ -376,3 +376,13 @@ Sun 14 Aug 2022 09:39:40 PM UTC:
  tests:  7|1
 total_score: 60/70
 995446c
+Sun 14 Aug 2022 09:43:27 PM UTC: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:122:11: error: expected expression before ‘;’ token
+  122 |   int i = ;
+      |           ^
+Compilation failed
+563b4ef

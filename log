@@ -76,3 +76,14 @@ exercises.c:87:12: error: unused variable ‘v’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 1136381
+Sun 14 Aug 2022 07:58:06 PM UTC: 
+ exercises.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:89:12: error: unused variable ‘v’ [-Werror=unused-variable]
+   89 |   Vector * v =(Vector *)malloc(sizeof(Vector));
+      |            ^
+cc1: all warnings being treated as errors
+Compilation failed
+ae88bb8

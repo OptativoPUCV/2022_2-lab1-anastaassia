@@ -301,3 +301,20 @@ Sun 14 Aug 2022 09:11:28 PM UTC:
  tests:  6|2
 total_score: 50/70
 6257017
+Sun 14 Aug 2022 09:21:48 PM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:122:4: error: ‘Vector’ has no member named ‘a’
+  122 |   c->a+b
+      |    ^~
+exercises.c:122:9: error: expected ‘;’ before ‘}’ token
+  122 |   c->a+b
+      |         ^
+      |         ;
+  123 | 
+  124 | }
+      | ~        
+Compilation failed
+83c2b3e

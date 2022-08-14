@@ -284,3 +284,14 @@ Sun 14 Aug 2022 08:24:32 PM UTC:
  tests:  6|2
 total_score: 50/70
 a234e43
+Sun 14 Aug 2022 09:07:12 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:43:21: error: expected ‘;’ before ‘)’ token
+   43 |   for(i=0 < n/2; i++){
+      |                     ^
+      |                     ;
+Compilation failed
+3cc018e

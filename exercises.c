@@ -40,7 +40,7 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
   int i = 0;
   int aux;
   
-  for(;i < n/2; i++){
+  for(i=0 < n/2; i++){
     aux = a[i];
     a[i] = a[n-i-1];
     a[n-i-1] = aux;
@@ -101,7 +101,6 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
-
   v->datos[i] = valor;
 }
 

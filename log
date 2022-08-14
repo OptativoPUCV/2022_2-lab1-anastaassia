@@ -24,3 +24,15 @@ exercises.c:43:8: error: ‘i’ undeclared (first use in this function)
 exercises.c:43:8: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 1f5f987
+Sun 14 Aug 2022 06:50:25 PM UTC: 
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:7: error: expected identifier or ‘(’ before ‘=’ token
+   40 |   int = i = 0;
+      |       ^
+exercises.c:43:8: error: ‘i’ undeclared (first use in this function)
+   43 |   for(;i < n/2; i++){
+      |        ^
+exercises.c:43:8: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+58b645c

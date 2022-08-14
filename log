@@ -187,3 +187,28 @@ exercises.c:71:18: error: control reaches end of non-void function [-Werror=retu
 cc1: all warnings being treated as errors
 Compilation failed
 fd0af41
+Sun 14 Aug 2022 08:15:21 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c:73:3: error: expected identifier or ‘(’ before ‘return’
+   73 |   return p;
+      |   ^~~~~~
+exercises.c:74:1: error: expected identifier or ‘(’ before ‘}’ token
+   74 | }
+      | ^
+exercises.c: In function ‘crearVector’:
+exercises.c:92:15: error: ‘datos’ undeclared (first use in this function)
+   92 |   v->datos = (datos *)calloc(sizeof(datos));
+      |               ^~~~~
+exercises.c:92:15: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:92:22: error: expected expression before ‘)’ token
+   92 |   v->datos = (datos *)calloc(sizeof(datos));
+      |                      ^
+exercises.c: In function ‘crearPersona’:
+exercises.c:71:18: error: control reaches end of non-void function [-Werror=return-type]
+   71 |   p->edad = edad;}
+      |                  ^
+cc1: all warnings being treated as errors
+Compilation failed
+a11a98f

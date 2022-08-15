@@ -89,9 +89,9 @@ Vector * crearVector(int n) {
   Vector * v =(Vector *)malloc(sizeof(Vector));//se crea el arreglo
   
   v->datos = (int *)calloc(n,sizeof(int));//se inicializa con solo 0
-  v->capacidad = n;//
+  v->capacidad = n;//se le asigna la capacidad n al arreglo
   
-  return v;
+  return v;//retorna el vector 
 }
 
 /*
